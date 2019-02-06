@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "scss/base.css",
+	"sources": [
+		"scss/base.scss",
+		"scss/modules/_colors.scss",
+		"scss/partials/_nav.scss"
+	],
+	"sourcesContent": [
+		"@import 'modules/colors';\r\n@import 'partials/nav';",
+		"// So Many Lost Songs\r\n$indigo:#051e3e;\r\n$deep-purple: #251e3e;\r\n$violet: #451e3e;\r\n$red-violet: #651e3e;\r\n$dark-red: #851e3e;\r\n// Default\r\n$white: #FFF;\r\n$black: #000;\r\n\r\n$primary-color: $indigo;\r\n$secondary-color: $deep-purple;\r\n$accent-color: $white;\r\n",
+		".navbar{\r\n\tbackground-color: $primary-color;\r\n\tcolor: $accent-color;\r\n}"
+	],
+	"mappings": ";AEAA,AAAA,OAAO,CAAA;EACN,gBAAgB,EDAT,OAAO;ECCd,KAAK,EDKE,IAAI;CCJX",
+	"names": []
+}

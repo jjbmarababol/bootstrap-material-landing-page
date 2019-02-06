@@ -1,0 +1,170 @@
+.indigo-text {
+  color: #051e3e !important;
+}
+
+.white-text {
+  color: #FFF !important;
+}
+
+.deep-purple-text {
+  color: #251e3e !important;
+}
+
+.violet-text {
+  color: #451e3e !important;
+}
+
+.red-violet-text {
+  color: #651e3e !important;
+}
+
+.dark-red-text, footer a {
+  color: #851e3e !important;
+}
+
+.indigo-bg {
+  background-color: #051e3e !important;
+}
+
+.white-bg {
+  background-color: #FFF !important;
+}
+
+.deep-purple-bg {
+  background-color: #251e3e !important;
+}
+
+.violet-bg {
+  background-color: #451e3e !important;
+}
+
+.red-violet-bg {
+  background-color: #651e3e !important;
+}
+
+.dark-red-bg {
+  background-color: #851e3e !important;
+}
+
+.dirtywhite-bg {
+  background-color: antiquewhite !important;
+}
+
+footer a {
+  font-weight: bolder;
+}
+
+.navbar {
+  background-color: #851e3e;
+  color: #FFF !important;
+  padding: 1.5rem 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@font-face {
+  font-family: 'centurygothic';
+  src: url("../../../fonts/centurygothic.ttf");
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../fonts/material-icons.woff2") format("woff2");
+}
+
+* {
+  font-family: 'centurygothic';
+}
+
+.material-icons {
+  font-family: 'Material Icons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-icons.left {
+  margin-right: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.material-icons.large {
+  font-size: 3em;
+  position: relative;
+  top: 15px;
+}
+
+.letterspace-small {
+  letter-spacing: 0.03em;
+}
+
+.letterspace-medium {
+  letter-spacing: 0.05em;
+}
+
+.letterspace-large {
+  letter-spacing: 0.7em;
+}
+
+.uc {
+  text-transform: uppercase !important;
+}
+
+.lc {
+  text-transform: lowercase !important;
+}
+
+.justify, p.lead {
+  text-align: justify;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.starter-space {
+  margin-top: 1.25em !important;
+}
+
+.card-body, footer {
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+
+.card, .btn {
+  border-radius: 0px !important;
+}
+
+.feature-content {
+  padding: 7em;
+  padding-bottom: 3em;
+}
+
+.newsletter {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+.newsletter input {
+  height: 3em;
+  width: 80%;
+}
+
+.newsletter input:-placeholder {
+  margin-left: 1em;
+}
+
+.carousel-caption {
+  bottom: 40%;
+  background-color: rgba(0, 0, 0, 0.1);
+}

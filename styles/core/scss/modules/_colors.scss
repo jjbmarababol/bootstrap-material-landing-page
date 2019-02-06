@@ -1,0 +1,63 @@
+// So Many Lost Songs
+$indigo:#051e3e;
+$deep-purple: #251e3e;
+$violet: #451e3e;
+$red-violet: #651e3e;
+$dark-red: #851e3e;
+// Default
+$white: #FFF;
+$black: #000;
+
+$primary-color: $indigo;
+$secondary-color: $deep-purple;
+$accent-color: $white;
+
+
+// TEXT
+.indigo-text{
+	color: $indigo !important; 
+}
+.white-text{
+	color: $white !important; 
+}
+.deep-purple-text{
+	color: $deep-purple !important; 
+}
+.violet-text{
+	color: $violet !important; 
+}
+.red-violet-text{
+	color: $red-violet !important; 
+}
+.dark-red-text{
+	color: $dark-red !important; 
+}
+
+
+// BACKGROUND
+.indigo-bg{
+	background-color: $indigo !important; 
+}
+.white-bg{
+	background-color: $white !important; 
+}
+.deep-purple-bg{
+	background-color: $deep-purple !important; 
+}
+.violet-bg{
+	background-color: $violet !important; 
+}
+.red-violet-bg{
+	background-color: $red-violet !important; 
+}
+.dark-red-bg{
+	background-color: $dark-red !important; 
+}
+.dirtywhite-bg{
+	background-color: antiquewhite !important;
+}
+
+footer a{
+	@extend .dark-red-text;
+	font-weight: bolder;
+}

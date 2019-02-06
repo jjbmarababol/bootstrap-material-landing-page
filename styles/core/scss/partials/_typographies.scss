@@ -1,0 +1,70 @@
+@font-face{
+	font-family: 'centurygothic';
+	src: url('../../../fonts/centurygothic.ttf');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../fonts/material-icons.woff2') format('woff2');
+}
+
+*{
+	font-family: 'centurygothic';
+}
+
+.material-icons {
+	font:{
+		family: 'Material Icons' !important;
+		weight: normal;
+		style: normal;
+		size: 24px;
+	}
+	-webkit:{
+		font-feature-settings: 'liga';
+		font-smoothing: antialiased;
+	}
+	&.left{
+		margin-right: 15px;
+		position: relative;
+	    top: 5px;
+	}
+	&.large{
+		font-size: 3em;
+		position: relative;
+	    top: 15px;
+	}
+}
+
+.letterspace{
+	&-small{
+		letter-spacing: $small-letter-spacing;
+	}
+	&-medium{
+		letter-spacing: $medium-letter-spacing;
+	}
+	&-large{
+		letter-spacing: $large-letter-spacing;
+	}
+}
+
+
+.uc{
+	text-transform: uppercase !important;
+}
+.lc{
+	text-transform: lowercase !important;
+}
+.justify{
+	text-align: justify;
+}
+
+p.lead{
+	@extend .justify;
+}
+
+
+.bold{
+	font-weight: bolder;
+}

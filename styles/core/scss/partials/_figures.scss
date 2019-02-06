@@ -1,0 +1,28 @@
+.starter-space{
+	margin-top: 1.25em !important;
+}
+
+.card-body, footer{
+	padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card, .btn{
+	border-radius: 0px !important;
+}
+.feature-content{
+	padding: 7em;
+	padding-bottom: 3em;
+}
+
+.newsletter{
+    margin-top: 10em;
+    margin-bottom: 10em;
+	input{
+		height: 3em;
+		width: 80%;
+		&:-placeholder{
+			margin-left:	 1em;	
+		}
+	}
+}
